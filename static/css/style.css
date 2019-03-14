@@ -1,0 +1,43 @@
+html,
+body,
+#map {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color:bisque;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .minor {
+  color: white;
+}
+
+.legend .light {
+  color: yellow;
+}
+
+.legend .moderate {
+  color: orange;
+}
+
+.legend .strong {
+  color: red;
+}
+
+.legend .mayor {
+  color: darkred;
+}
+
+.legend .great{
+  color: #555
+}
